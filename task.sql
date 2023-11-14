@@ -21,6 +21,58 @@ INSERT INTO usertb (userid, username) VALUES
 (2, 'Colin'),
 (3, 'Paula'),
 (4, 'Glenda');
+Insert value into poststb table
+-- Insert values into poststb
+INSERT INTO poststb (postid, postcontent, postdate, userid) VALUES
+(1, 'Craft', '2002-06-18', 1),
+(2, 'Sale', '2003-04-10', 1),
+(3, 'Design', '2022-01-14', 1),
+(4, 'Tips', '2006-08-19', 1),
+(5, 'Lesson', '2006-07-19', 1),
+(6, 'cartoon', '2002-03-14', 2),
+(7, 'meme', '2006-08-19', 2),
+(8, 'craft', '2007-07-10', 2),
+(9, 'gift', '2002-03-12', 2),
+(10, 'Animal', '2005-03-18', 2),
+(11, 'gold', '2024-05-14', 3),
+(12, 'Awarness', '2006-06-19', 3),
+(13, 'Experimentals', '2010-06-20', 3),
+(14, 'Landsale', '2001-06-08', 3),
+(15, 'Tricks', '2010-04-07', 3),
+(16, 'Forest', '2011-06-20', 4),
+(17, 'Bikesale', '2011-06-26', 4),
+(18, 'Book', '2011-07-01', 4),
+(19, 'Award', '2011-06-20', 4),
+(20, 'comedy', '2010-02-20', 4);
+3.Insert into liketb table
+-- Insert values into liketb
+INSERT INTO liketb (postid, userid) VALUES
+(18, 4),
+(18, 3),
+(18, 1),
+(18, 2),
+(19, 1),
+(19, 3),
+(20, 3),
+(20, 2),
+(12, 4),
+(12, 1),
+(14, 4),
+(14, 2),
+(1, 3),
+(1, 4),
+(4, 4),
+(4, 3),
+(4, 2),
+(6, 4),
+(6, 3),
+(6, 2),
+(6, 1),
+(9, 3),
+(9, 1),
+(7, 3),
+(7, 1),
+(7, 4);
 
 DML 
 1.List all users
