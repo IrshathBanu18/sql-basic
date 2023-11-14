@@ -14,6 +14,13 @@ create datebase likeappdb;
     userid integer references usertb(userid) not null,
     postid integer references poststb(postid) not null
 );
+Insert value into usertb table
+-- Insert values into usertb
+INSERT INTO usertb (userid, username) VALUES
+(1, 'Edina'),
+(2, 'Colin'),
+(3, 'Paula'),
+(4, 'Glenda');
 
 DML 
 1.List all users
