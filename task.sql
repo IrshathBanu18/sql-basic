@@ -3,11 +3,17 @@ create datebase likeappdb;
 	1. create table user table:
 	create table userstb,
    2. create table posts table
-    create table poststb,
-
-   3. create table likes table,
-   create table likestb
-
+   CREATE TABLE poststb (
+    postid serial not null primary key,
+    postcontent varchar not null,
+    userid integer not null references userstb(userid)
+);
+   3. create table likes table
+   CREATE TABLE likestb (
+    likeid serial primary key,
+    userid integer references usertb(userid) not null,
+    postid integer references poststb(postid) not null
+);
 
 DML 
 1.List all users
