@@ -1,7 +1,7 @@
 DDl 
 create datebase likeappdb;
 	1. create table user table:
-	create table userstb,
+	create table userstb(userid serial not null primary key,username not null varchar),
    2. create table posts table
    CREATE TABLE poststb (
     postid serial not null primary key,
