@@ -6,7 +6,7 @@ create datebase likeappdb;
     create table poststb,
 
    3. create table likes table,
-   create table likestb.
+   create table likestb
 
 
 DML 
